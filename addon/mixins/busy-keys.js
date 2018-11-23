@@ -1,10 +1,10 @@
 import Mixin from '@ember/object/mixin';
-import Ember from "ember";
+import EmberObject from '@ember/object';
 
 export default Mixin.create({
   init() {
     this._super(...arguments);
-    this.set('busyKeys', Ember.Object.create({}));
+    this.set('busyKeys', EmberObject.create({}));
   },
 
   isBusy: false,
@@ -15,7 +15,7 @@ export default Mixin.create({
       busyItem = this.get(busyPropertyPath);
 
     if(!busyItem) {
-      busyItem = Ember.Object.create({
+      busyItem = EmberObject.create({
         key: busyKey,
         description: description || null,
         number: 1,

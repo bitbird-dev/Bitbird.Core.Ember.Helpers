@@ -8,6 +8,7 @@ module('Unit | Service | functions', function(hooks) {
   test('it exists', function(assert) {
     let service = this.owner.lookup('service:functions');
     assert.ok(service);
+    assert.ok();
   });
 });
 

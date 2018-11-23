@@ -8,5 +8,6 @@ module('Unit | Mixin | busy-keys', function() {
     let BusyKeysObject = EmberObject.extend(BusyKeysMixin);
     let subject = BusyKeysObject.create();
     assert.ok(subject);
+    assert.ok();
   });
 });
