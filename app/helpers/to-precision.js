@@ -1,1 +1,1 @@
-export { default, toPrecision } from 'bitbird-core-js-helpers/helpers/to-precision';
+export { default, toPrecision } from 'bitbird-core-ember-helpers/helpers/to-precision';

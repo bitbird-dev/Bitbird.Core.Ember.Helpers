@@ -1,1 +1,1 @@
-export { default, join } from 'bitbird-core-js-helpers/helpers/join';
+export { default, join } from 'bitbird-core-ember-helpers/helpers/join';

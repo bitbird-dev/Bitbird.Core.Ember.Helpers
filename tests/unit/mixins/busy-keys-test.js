@@ -1,5 +1,5 @@
 import EmberObject from '@ember/object';
-import BusyKeysMixin from 'bitbird-core-js-helpers/mixins/busy-keys';
+import BusyKeysMixin from 'bitbird-core-ember-helpers/mixins/busy-keys';
 import { module, test } from 'qunit';
 
 module('Unit | Mixin | busy-keys', function() {

@@ -1,1 +1,1 @@
-export { default, camelize } from 'bitbird-core-js-helpers/helpers/camelize';
+export { default, camelize } from 'bitbird-core-ember-helpers/helpers/camelize';

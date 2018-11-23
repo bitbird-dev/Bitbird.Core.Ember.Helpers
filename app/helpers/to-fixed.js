@@ -1,1 +1,1 @@
-export { default, toFixed } from 'bitbird-core-js-helpers/helpers/to-fixed';
+export { default, toFixed } from 'bitbird-core-ember-helpers/helpers/to-fixed';

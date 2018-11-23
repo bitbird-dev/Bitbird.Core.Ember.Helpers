@@ -1,1 +1,1 @@
-export { default } from 'bitbird-core-js-helpers/services/functions';
+export { default } from 'bitbird-core-ember-helpers/services/functions';

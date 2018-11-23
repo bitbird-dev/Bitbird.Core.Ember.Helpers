@@ -1,1 +1,1 @@
-export { default, startsWith } from 'bitbird-core-js-helpers/helpers/starts-with';
+export { default, startsWith } from 'bitbird-core-ember-helpers/helpers/starts-with';

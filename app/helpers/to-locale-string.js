@@ -1,1 +1,1 @@
-export { default, toLocaleString } from 'bitbird-core-js-helpers/helpers/to-locale-string';
+export { default, toLocaleString } from 'bitbird-core-ember-helpers/helpers/to-locale-string';

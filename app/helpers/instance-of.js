@@ -1,1 +1,1 @@
-export { default, instanceOf } from 'bitbird-core-js-helpers/helpers/instance-of';
+export { default, instanceOf } from 'bitbird-core-ember-helpers/helpers/instance-of';

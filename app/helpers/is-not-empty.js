@@ -1,1 +1,1 @@
-export { default, isNotEmpty } from 'bitbird-core-js-helpers/helpers/is-not-empty';
+export { default, isNotEmpty } from 'bitbird-core-ember-helpers/helpers/is-not-empty';

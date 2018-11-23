@@ -1,1 +1,1 @@
-export { default, nameFor } from 'bitbird-core-js-helpers/helpers/name-for';
+export { default, nameFor } from 'bitbird-core-ember-helpers/helpers/name-for';

@@ -1,1 +1,1 @@
-export { default, asHtml } from 'bitbird-core-js-helpers/helpers/as-html';
+export { default, asHtml } from 'bitbird-core-ember-helpers/helpers/as-html';

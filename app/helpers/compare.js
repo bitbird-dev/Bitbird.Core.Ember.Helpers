@@ -1,1 +1,1 @@
-export { default, compare } from 'bitbird-core-js-helpers/helpers/compare';
+export { default, compare } from 'bitbird-core-ember-helpers/helpers/compare';

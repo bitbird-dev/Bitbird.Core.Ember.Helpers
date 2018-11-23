@@ -1,4 +1,4 @@
-bitbird-core-js-helpers
+bitbird-core-ember-helpers
 ==============================================================================
 
 [Short description of the addon.]

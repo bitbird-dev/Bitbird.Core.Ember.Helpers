@@ -1,1 +1,1 @@
-export { default, toString } from 'bitbird-core-js-helpers/helpers/to-string';
+export { default, toString } from 'bitbird-core-ember-helpers/helpers/to-string';

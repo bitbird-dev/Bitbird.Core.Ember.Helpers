@@ -1,1 +1,1 @@
-export { default, padEnd } from 'bitbird-core-js-helpers/helpers/pad-end';
+export { default, padEnd } from 'bitbird-core-ember-helpers/helpers/pad-end';

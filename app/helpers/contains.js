@@ -1,1 +1,1 @@
-export { default, contains } from 'bitbird-core-js-helpers/helpers/contains';
+export { default, contains } from 'bitbird-core-ember-helpers/helpers/contains';

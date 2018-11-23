@@ -1,1 +1,1 @@
-export { default, percentage } from 'bitbird-core-js-helpers/helpers/percentage';
+export { default, percentage } from 'bitbird-core-ember-helpers/helpers/percentage';

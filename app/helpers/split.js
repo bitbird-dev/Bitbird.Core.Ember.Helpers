@@ -1,1 +1,1 @@
-export { default, split } from 'bitbird-core-js-helpers/helpers/split';
+export { default, split } from 'bitbird-core-ember-helpers/helpers/split';

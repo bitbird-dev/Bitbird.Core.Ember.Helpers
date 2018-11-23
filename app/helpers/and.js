@@ -1,1 +1,1 @@
-export { default, and } from 'bitbird-core-js-helpers/helpers/and';
+export { default, and } from 'bitbird-core-ember-helpers/helpers/and';

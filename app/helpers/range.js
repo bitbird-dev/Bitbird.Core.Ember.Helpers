@@ -1,1 +1,1 @@
-export { default, range } from 'bitbird-core-js-helpers/helpers/range';
+export { default, range } from 'bitbird-core-ember-helpers/helpers/range';
