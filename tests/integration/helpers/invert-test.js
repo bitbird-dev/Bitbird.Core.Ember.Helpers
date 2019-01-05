@@ -14,6 +14,10 @@ module('Integration | Helper | invert', function(hooks) {
     this.set('inputValue', false);
     await render(hbs`{{invert inputValue}}`);
     assert.equal(this.element.textContent.trim(), 'true', "false becomes true");
+
+    this.set('inputValue', null);
+    await render(hbs`{{invert inputValue}}`);
+    assert.equal(this.element.textContent.trim(), 'false', "null becomes false");
   });
 
   test('number', async function(assert) {

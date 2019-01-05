@@ -1,8 +1,6 @@
 import { helper } from '@ember/component/helper';
 
 export function invert(params, hash = { enhancedMode: false }) {
-  if (params[0] === null || params[0] === undefined) return null;
-
   let enhancedMode = hash.enhancedMode || params[1];
   let type = typeof(params[0]);
 
