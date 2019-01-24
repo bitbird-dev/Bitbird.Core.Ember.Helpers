@@ -7,8 +7,13 @@ function _handleArraySource(source, value) {
 export function contains(params/*, hash*/) {
   if(params.length === 0) return false;
 
-  let sourceIsArray = Array.isArray(params[0]),
-    source = params[0],
+  let source = params[0];
+
+  if(source && source.toArray) {
+    source = source.toArray();
+  }
+
+  let sourceIsArray = Array.isArray(source),
     value = params[1];
 
   if(sourceIsArray) {
