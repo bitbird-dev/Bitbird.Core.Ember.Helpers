@@ -4,13 +4,17 @@ export function length(params/*, hash*/) {
   let value = params[0],
     result = false;
 
-  if(Number.isInteger(value.length))
+  if(Number.isInteger(value))
   {
-    return value.length;
+    return value.toString().length;
   }
-  else if(Number.isInteger(result = value.get('length')))
+  else if(Number.isInteger(value.length))
   {
-      return result;
+      return value.length.toString().length;
+  }
+  else if(value.get && Number.isInteger(result = value.get('length')))
+  {
+      return result.toString().length;
   }
 
   return value;
